@@ -56,3 +56,5 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+            .share    
+                include ../partial/share
