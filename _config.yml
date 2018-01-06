@@ -79,5 +79,5 @@ theme: gandalfr
 
 deploy:
   type: git
-  repo: https://__GITHUB_TOKEN__@github.com/user/blog.git
+  repo: https://__GITHUB_TOKEN__@github.com/naril/devlog.git
   branch: master
