@@ -1,8 +1,8 @@
 menu:
     Blog: /
+    Archiv: /archives
     Info: /info
     Kontakt: /kontakt
-#    Archive: /archives/
 #    GitHub:
     Rss: /atom.xml
 
