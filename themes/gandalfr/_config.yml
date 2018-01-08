@@ -1,13 +1,13 @@
 menu:
     Blog: /
-    Archiv: /archives
-    Info: /info
-    Kontakt: /kontakt
+    Archiv: /archives/
+    Info: /info/
+    Kontakt: /kontakt/
 #    GitHub:
     Rss: /atom.xml
 
 favicon: /favicon.ico
-logo: /dev/log $<span class="cursor">_</span>
+# logo: 
 
 # Comment
 # e.g disqus: seansun
