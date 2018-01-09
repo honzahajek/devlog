@@ -25,9 +25,25 @@ header {
     .nav-list-item {
         display: inline-block;
         padding: 19px  10px ;
+        position: relative; 
         a {
             font-size: 16px;
             line-height: 1.4;
         }
+    }
+
+    .nav-list-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    }
+
+    .nav-list-item:hover:after, .nav-list-item.active:after {
+        width: 100%;
+        background: #42b983;
     }
 }

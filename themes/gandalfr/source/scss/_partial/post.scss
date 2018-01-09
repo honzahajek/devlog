@@ -7,6 +7,23 @@
         margin: 0.65em 0;
         color: #2c3e50;
         font-size: 1.5em;
+        display: inline-block;
+        position: relative;
+    }
+
+    .post-title:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+
+    .post-title:not(.post):hover:after {
+        width: 100%;
+        background: #42b983;
     }
 
     .post-info {
