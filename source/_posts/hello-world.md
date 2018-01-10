@@ -3,6 +3,7 @@ title: Hello World
 tags: ['PHP', 'Javascript']
 keywords: 'test, 123, test'
 description: 'super clanek o nicem'
+date: 2018-01-11
 ---
 Příliš žluťoučký kůň úpěl ďábelské ódy.
 
